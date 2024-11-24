@@ -1,0 +1,26 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs, generated files
+*.log
+*.vs/
+*.DS_Store
+
+# Ignore .NET Core build results
+project.lock.json
+artifacts/
+!wwwroot/
+
+# Ignore sensitive files (for example, environment variables or settings)
+appsettings.json
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
